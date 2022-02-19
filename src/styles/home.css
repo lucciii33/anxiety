@@ -1,0 +1,45 @@
+body{
+    background: #F8E5E5;
+}
+
+
+/* CSS */
+.btn {
+  background-color: #FA255E;
+  border-radius: 100px;
+ /* box-shadow: rgb(255,182,193) 0 -25px 18px -14px inset,rgb(255,182,193)0 1px 2px;*/
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  box-shadow: rgb(255,182,193) 0 -25px 18px -14px inset,rgb(255,182,193) 0 1px 2px,rgb(255,182,193) 0 2px 4px,rgb(255,182,193) 0 4px 8px,rgb(255,182,193) 0 8px 16px,rgb(255,182,193) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.box1{
+    background: #C39EA0;
+}
+.img2{
+    width: 600px;
+    height: 300px;
+}
+input{
+    border-radius: 45px;
+    width: 300px;
+    background-color: #C39EA0;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
